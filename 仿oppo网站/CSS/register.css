@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 900px;
+}
+
+/* 头部部分 */
+header {
+  margin-left: 394px;
+  width: 894px;
+  height: 78px;
+  line-height: 78px;
+  font-size: 14px;
+  color: #7F7F7F;
+}
+
+header a {
+  margin-left: 730px;
+}
+
+header span:nth-child(2) {
+  margin-left: 23px;
+  position: relative;
+}
+
+header span:nth-child(2)::after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 67px;
+  border:5px solid;
+  border-color:  #7F7F7F transparent transparent transparent ;
+}
+
+/* 中间小标题 */
+h1 {
+  width: 400px;
+  height: 66px;
+  line-height: 66px;
+  margin: 70px auto 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* 主体部分 */
+main {
+  width: 400px;
+  height: 469px;
+  margin: 23px auto;
+  font-size: 12px;
+  color: #000000;
+}
+
+.area {
+  width: 400px;
+  height: 45px;
+  line-height: 45px;
+}
+
+.area span:first-child {
+  position: relative;
+  margin-left: 15px;
+}
+
+.area span:first-child::after {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 65px;
+  width: 5px;
+  height: 12px;
+  border-right: 1px solid #7F7F7F;
+}
+
+.area span:last-child {
+  position: relative;
+  margin-left: 30px;
+}
+
+.area span:last-child::after  {
+  position: absolute;
+  content: "";
+  top: 6px;
+  left:  270px;
+  width: 0;
+  height: 0;
+  border: 5px solid;
+  border-color: #7F7F7F transparent transparent transparent;
+  opacity: 0.6;
+}
+
+/* 主体部分 */
+main p {
+  margin-top: 10px;
+  color: #0000004D;
+}
+
+/* 输入手机号部分 */
+#phone {
+  margin-top: 20px;
+  margin-left: 12px;
+  width: 388px;
+  height: 45px;
+  line-height: 45px;
+  color: #7F7F7F;
+  border: none;
+}
+
+/* 输入验证码部分 */
+#vertify {
+  margin-top: 15px;
+  margin-left: 12px;
+  width: 293px;
+  height: 45px;
+  line-height: 45px;
+  color: #7F7F7F;
+  border: none;
+  opacity: 0.5;
+}
+
+main button {
+  width: 90px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background: #00000026;
+}
+
+/* 输入密码部分 */
+#password {
+  margin-top: 15px;
+  margin-left: 12px;
+  width: 388px;
+  height: 45px;
+  line-height: 45px;
+  color: #7F7F7F;
+  border: none;
+}
+
+.read {
+  margin-left: 15px;
+}
+
+.read  button{
+  margin-top: 20px;
+  width: 14px;
+  height: 14px;
+  background: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 231, 231);
+}
+
+.read a {
+  color: #21D181;
+}
+
+.register-btn {
+  margin-top: 45px;
+  margin-left: 150px;
+  width: 100px;
+  height: 39px;
+  background: #21D181;
+  color: #ccc;
+  opacity: 0.4;
+}
+
+/* 尾部部分 */
+footer{
+  margin: 170px auto;
+  width: 500px;
+  color: #9B9B9B;
+  font-size: 12px;
+}

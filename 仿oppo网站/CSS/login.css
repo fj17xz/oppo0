@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 900px;
+}
+
+/* 头部部分 */
+header  {
+  width: 1663px;
+  height: 78px;
+  line-height: 78px;
+}
+
+.header {
+  float: left;
+  margin-left: 393px;
+  width: 950px;
+  height: 78px;
+  font-size: 14px;
+  color: #7F7F7F;
+}
+
+.header div {
+  float: left;
+}
+
+.header div:first-child {
+  margin-right: 542px;
+}
+
+.header div:last-child  span{
+  position: relative;
+}
+
+.header div:last-child span::after {
+  position: absolute;
+  content: "";
+  left: 65px;
+  top: 5px;
+  width: 0px;
+  height: 0px;
+  border: 5px solid;
+  border-color: #7F7F7F  transparent transparent transparent ;
+}
+
+header div a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #7F7F7F;
+}
+
+header div span {
+  margin-left: 6px;
+}
+
+/* 欢迎部分（中间小标题） */
+.welcome {
+  margin: 51px auto;
+  width: 894px;
+  height: 61px;
+  text-align: center;
+}
+
+.welcome p {
+  font-size: 13px;
+  color: #000000;
+}
+
+/* 主体部分 */
+main {
+  margin: 32px auto;
+  width: 339px;
+  height: 392px;
+}
+
+.tips {
+  position: relative;
+  width: 339px;
+  height: 32px;
+}
+
+.tips p {
+  position: absolute;
+  top: 0;
+  right: 29px;
+  width: 68px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 5px;
+  color: #7F7F7F;
+  border: 1px solid rgb(20, 230, 20);
+  font-size: 12px;
+}
+
+.tips p::after {
+  position: absolute;
+  top: 8px;
+  left: 66px;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-right:  1px solid rgb(20, 230, 20);
+  border-bottom: 1px solid rgb(20, 230, 20);
+  background: #fff;
+  transform: rotate(-45deg);
+}
+
+.tips i::after{
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  content: "";
+  margin-left: 15px;
+  width: 0px;
+  height: 0px;
+  border: 15px  solid;
+  border-color: transparent rgb(20, 230, 20) transparent transparent ;
+  transform: rotate(135deg);
+  
+}
+
+main h1 {
+  width: 300px;
+  height: 77px;
+  margin: 10px auto;
+  text-align: center;
+  font-weight: 400;
+}
+
+main div:last-child{
+  width: 339px;
+  height: 270px;
+  font-size: 16px;
+  color: #000000;
+}
+
+main div:last-child span:first-child {
+  position: relative;
+  margin-left: 30px;
+  width: 112px;
+  height: 34px;
+  line-height: 34px;
+}
+
+main div:last-child span:first-child::after {
+  position: absolute;
+  content: "";
+  top: 6px;
+  margin-left: 30px;
+  height: 12px;
+  border-right: 1px solid  #7F7F7F;
+  opacity: 0.3;
+}
+
+main div:last-child span:last-child {
+  margin-left: 70px;
+  width: 64px;
+  height: 34px;
+  line-height: 34px;
+  opacity: 0.6;
+}
+
+/* 输入手机号码部分 */
+#phone {
+  margin-top: 30px;
+  margin-left: 23px;
+  width: 300px;
+  height: 45px;
+  color: #7F7F7F;
+  opacity: 0.6;
+  border: none;
+  outline:medium;
+  font-size: 12px;
+}
+
+/* 输入验证码部分 */
+#identify {
+  margin-top: 5px;
+  margin-left: 23px;
+  width: 201px;
+  height: 45px;
+  color: #7F7F7F;
+  opacity: 0.3;
+  border: none;
+  outline:medium;
+  cursor:not-allowed;
+  font-size: 12px;
+}
+
+main button {
+  width: 95px;
+  height: 45px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 12px;
+  background: #bdbcbc;
+  border: none;
+  cursor:not-allowed;
+  opacity: 0.6;
+}
+
+.login-btn{
+  margin-top: 40px;
+  margin-left: 21px;
+  width: 300px;
+  height: 48px;
+  background: #2AD181;
+  opacity: 0.3;
+}
+
+main a {
+  margin-left: 21px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #00000099;
+}
+
+main a:last-child {
+  margin-left: 198px;
+  color: #2AD181;
+}
+
+/* 尾部部分 */
+footer {
+  width: 500px;
+  margin: 230px auto;
+  font-size: 12px;
+  color: #9B9B9B;
+}
+
